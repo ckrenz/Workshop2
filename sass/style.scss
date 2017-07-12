@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$letra:"Roboto", sand-serif;
+$color1:white;
+$color2:grey;
+$color3:orange;
+$color4:black;
+
+.contenedor{
+	max-width:1000px;
+	margin:auto;
+}
+header{
+	font-family: $letra;
+	background-color: $color4;
+	color:white;
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+
+	ul{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		li{
+
+		}
+		a{
+			text-decoration: none;
+			padding:20px;
+		}
+
+	}
+}
+.principal{
+	@extend .contenedor;
+	text-align:center;
+
+}

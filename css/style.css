@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.contenedor, .principal {
+  max-width: 1000px;
+  margin: auto; }
+
+header {
+  font-family: "Roboto", sand-serif;
+  background-color: black;
+  color: white; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center; }
+    nav ul a {
+      text-decoration: none;
+      padding: 20px; }
+
+.principal {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
